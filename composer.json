@@ -1,5 +1,5 @@
 {
-    "name": "phpwheelframework/guardian",
+    "name": "wheel/guardian",
     "description": "PHP Application input accessor and guardians.",
     "keywords": ["component"],
     "homepage": "https://www.phpwheelframework.com",
@@ -18,10 +18,10 @@
     },
     "autoload": {
         "psr-4": { 
-            "Wheel\\Guardian\\": "" 
+            "Wheel\\Guardian\\": "src/Wheel/Guardian" 
         },
         "exclude-from-classmap": [
-            "/Tests/"
+            "/tests/"
         ]
     }
 }
